@@ -1,0 +1,159 @@
+.navbar-container{
+
+    display: flex;
+
+}
+nav div img{
+    padding: 40px;
+    position: relative;
+    
+    
+}
+
+ul{
+
+    /* position: absolute; */
+
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 60px 40px 40px 100px;
+    
+}
+
+.list-item{
+
+    padding-left: 70px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Orbitron;
+    
+    
+}
+ .head{
+    padding-left: 0;
+    border-bottom: 3px solid black;
+    border-block-end-width: 3px;
+    width: 50px;
+    text-align: center;
+    font-weight: 900;
+ }
+
+ 
+
+.button-group{
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 50px 40px 40px 200px;
+    float: right;
+}
+
+.nav-button{
+    background-color: transparent;
+    border: 2px solid #32495C;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.search-icon{
+    padding-top: 5px;
+    margin-right: 8px;
+    text-align: center;
+
+    
+}
+
+.hero-container{
+    display: flex;
+    
+}
+
+.square{
+    margin-top: 370px;
+    order: 2;
+    margin-left: -370px;
+}
+
+.img{
+    order: 1;
+   padding: 40px;
+   z-index: 1;
+    
+   
+}
+
+.globe{
+    order: 3;
+    margin-left: 100px;
+}
+.star{
+    order: 5;
+    padding: 30px 200px 0px 0px;
+}
+
+.hero-container-right{
+    order: 4;
+    margin-top: 100px;
+    margin-left: -200px;
+}
+
+.hero-heading{
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+
+}
+
+.hero-description{
+    text-align: center;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 13px;
+
+}
+.btn{
+    
+    margin-top: 100px;
+    text-align: center;
+}
+
+.button-email{
+    padding: 5px;
+    width: 175px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-family: Orbitron;
+    color: #515151;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.button-join{
+    padding: 5px;
+    width: auto;
+    border-radius: 5px;
+    font-family: Orbitron;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.contact-info{
+    text-align: center;
+    margin-top: 100px;
+    color: #515151;
+    font-family: poppins;
+}
+
+.icons span{
+
+    padding: 10px;
+}
