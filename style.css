@@ -1,20 +1,41 @@
-.navbar-container{
 
-    display: flex;
+/* ---------------------
+     Navbar design
+-----------------------
+ */
+
+ .navbar-container div{
+    position: relative;
+    display: inline-block;
 
 }
+
+.navbar-container ul{
+    text-align: center;
+    margin-top: -60px;
+}
+.navbar-container ul li{
+    float: left;
+    display: inline-block;
+    margin-top: -20px;
+    
+    
+}
+.search-icon{
+
+    display: inline-block;
+}
 nav div img{
-    padding: 40px;
+    margin: 50px;
     position: relative;
+    
     
     
 }
 
 ul{
 
-    /* position: absolute; */
-
-    display: flex;
+   
     text-decoration: none;
     list-style: none;
     margin: 60px 40px 40px 100px;
@@ -66,11 +87,14 @@ ul{
     
 }
 
+
 .hero-container{
     display: flex;
     
 }
-
+/*--------------
+    Pattern
+----------------*/
 .square{
     margin-top: 370px;
     order: 2;
